@@ -2,7 +2,7 @@ class WadokuSearchClient < Sinatra::Base
 
   before do
     session[:css] ||= params[:css]
-    @css = session[:css] || "bootstrap.min"
+    @css = session[:css] || "bootstrap-responsive.min"
   end
 
   get "/entries/by-daid/:daid" do
