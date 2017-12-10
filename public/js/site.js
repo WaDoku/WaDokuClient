@@ -1,5 +1,5 @@
 var WaDokuAPI = {
-  api_host: api_host || 'https://wadoku.eu:10010',
+  api_host: api_host || 'https://wadoku.eu:10020',
   getResults: function(query, callback) {
     query = query.replace("/", "");
     query = query + "&format=html&full_subentries=true&limit=15"; // TODO: Full subentries should not be hardcoded
