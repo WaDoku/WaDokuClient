@@ -10,3 +10,5 @@ group :development do
   gem 'capistrano', '2.15.9'
   gem 'rvm-capistrano'
 end
+# Added at 2018-05-07 02:37:59 +0200 by toni:
+gem "puma", "~> 3.11"
