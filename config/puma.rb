@@ -1,6 +1,6 @@
-tag 'WaDokuClient-STAGING'
-environment 'staging'
-bind 'tcp://127.0.0.1:10120'
+tag 'WaDokuClient'
+environment 'production'
+bind 'tcp://127.0.0.1:10110'
 workers 4
 preload_app!
 
