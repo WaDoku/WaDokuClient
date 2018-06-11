@@ -11,6 +11,9 @@ class WadokuSearchClient < Sinatra::Base
     @entry_template = mustache_template :entry
     erb :entry
   end
+  get "/dsgvo" do
+    erb :dsgvo
+  end
 
   get "/" do
     if params[:query]
